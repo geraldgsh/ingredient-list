@@ -59,4 +59,20 @@ app.delete('/ingredients/:id', (req, res) => {
 
 });
 
+app.put('/ingredients/:id', (req, res) => {
+  const ingredientId = req?.params?.id;
+  const updatedIngredient = req?.body;
+  fetch(
+    `https://react-hooks-update-d8f72-default-rtdb.asia-southeast1.firebasedatabase.app/ingredients/${ingredientId}.json`,
+    {
+      method: 'PUT',
+      body: JSON.stringify(updatedIngredient),
+      headers: { "Content-Type": "application/json" }
+    }
+  )
+    .then((response) => {
+      res.json(response);
+    }).catch(error => console.log(error));
+});
+
 app.listen(5000, () => console.log("API server is running..."));
