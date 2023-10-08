@@ -8,7 +8,7 @@ Ingredient list app
 
 * [![React][React.js]][React-url]
 * [![NodeJs][NodeJs.com]][NodeJs-url]
-* [google.firebase.com][firebase-url]
+* [![firebase][google.firebase.com]][firebase-url]
 
 ## Sample JSON object
 
@@ -110,4 +110,4 @@ This project is [MIT](lic.url) licensed.
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com
 [google.firebase.com]: https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white/
-[firebase-url]: [google.firebase.com]
+[firebase-url]: https://google.firebase.com
