@@ -44,7 +44,7 @@ const Modal = React.memo((props) => {
 
 Modal.propTypes = {
     isModalOpen: PropTypes.bool.isRequired,
-    onClose: PropTypes.bool.isRequired,
+    onClose: PropTypes.func.isRequired,
     selectedIngredient: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
