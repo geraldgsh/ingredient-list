@@ -42,4 +42,21 @@ app.post("/ingredients", async (req, res) => {
     });
 });
 
+app.delete('/ingredients/:id', (req, res) => {
+  const ingredientId = req?.params?.id;
+  fetch(
+    `https://react-hooks-update-d8f72-default-rtdb.asia-southeast1.firebasedatabase.app/ingredients/${ingredientId}.json`,
+    {
+      method: 'DELETE',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }
+  )
+    .then((response) => {
+      res.json(response);
+    }).catch(error => console.log(error));
+
+});
+
 app.listen(5000, () => console.log("API server is running..."));
