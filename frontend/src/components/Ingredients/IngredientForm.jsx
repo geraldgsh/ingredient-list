@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import PropTypes from 'prop-types'
 import IngredientCardForm from './IngredientCardForm';
 
 const IngredientForm = React.memo((props) => {
@@ -24,7 +23,5 @@ const IngredientForm = React.memo((props) => {
         />
     );
 });
-
-IngredientForm.propTypes = {}
 
 export default IngredientForm
