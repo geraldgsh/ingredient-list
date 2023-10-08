@@ -1,0 +1,63 @@
+.ingredient-list {
+    width: 30rem;
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .ingredient-list h2 {
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 1rem;
+  }
+  
+  .ingredient-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ingredient-list li {
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .button-update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 7px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: #0095ff;
+     background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: small;
+  }
+
+  .button-delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 7px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: #ff0000;
+     background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    font-size: small;
+  }
+
+  .span-align {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
